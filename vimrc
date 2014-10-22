@@ -117,6 +117,12 @@ let g:Powerline_symbols = 'fancy'
 " Cmd-T options
 let g:CommandTMaxHeight=20
 
+" Tagbar Shortcut
+noremap <leader>] :TagbarToggle<CR>
+
+" NERDtree Shortcut
+noremap <leader>q :NERDTreeToggle<CR>
+
 " Syntax for GLSL
 au BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl set filetype=glsl
 au BufNewFile,BufRead *.pc set filetype=cpp
@@ -144,6 +150,10 @@ cnoremap <C-j> <t_kd>
 cnoremap <C-k> <t_ku>
 cnoremap <C-a> <Home>
 cnoremap <C-e> <End>
+
+" Colorscheme
+colorscheme molokai
+
 
 " omni complete shortcut
 "inoremap <C-space> <C-x><C-o>
